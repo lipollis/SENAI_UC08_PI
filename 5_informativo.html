@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adiciona um favicon na aba de navegação -->
+    <link rel="shortcut icon" href="./img/plug.svg">
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="./css/style-5_informativo.css">
+    <link rel="stylesheet" href="./css/style-config.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a807f673f8.js" crossorigin="anonymous"></script>
+    <!-- SCRIPT JS -->
+    <script src="./javascript/modal.js"></script>
+    <script src="./javascript/menu.js"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <title>AP</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <!-- ================================ -->
+        <!--              MODAL               -->
+        <!-- ================================ -->
+        <img src="./img/logo.svg" class="abrir_modal img_modal" onclick="abrirModal()">
+
+        <div class="fundo_modal" id="modal-ap">
+            <div class="modal-imagem-tela">
+                <img src="./img/logo.svg">
+                <span class="fechar" onclick="fecharModal()">&times;</span>
+            </div>
+        </div>
+    </header>
+    <!-- ================================ -->
+    <!--              MENU               -->
+    <!-- ================================ -->
+    <nav class=" ">
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html">Home</a>
+            <a href="./2_meet.html" >Sobre nós</a>
+            <a href="./3_projetos.html">Projetos</a>
+            <a href="./4_servicos.html">Serviços</a>
+            <a href="./5_informativo.html" class="active">Informativo</a>
+            <a href="./6_contato.html">Contato</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+<!-- ================================ -->
+<!--              BODY               -->
+<!-- ================================ -->
+
+<section class="container-meet">
+    <div class="esquerda">
+      <h2>Lorem Ipsum</h2>
+      <br>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.</p>
+    </div>
+  
+    <div class="direita">
+      <br>
+      <br>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.</p>
+    </div>
+  </section>
+</body>
+
+
+
+
+
+<footer id="footer">
+    <section class="container-footer">
+        <!-- ====================================
+                MENU REDES SOCIAIS
+    ========================================= -->
+
+        <div class="container-social ">
+            <div class="grid-container-social">
+                <div class="grid-item-social"><a href="https://github.com/lipollis" target="_blank"><span
+                            class='fontAwesome fa-brands fa-github'></span></a></div>
+                <div class="grid-item-social"><a href="https://www.instagram.com/alinepollis/" target="_blank"><span
+                            class='fontAwesome fa-brands fa-instagram'></span></a></div>
+                <div class="grid-item-social"><a href="https://www.facebook.com/aline.pollis/" target="_blank"><span
+                            class="fontAwesome fa-brands fa-facebook"></span></a></div>
+                <div class="grid-item-social"><a href="https://www.linkedin.com/in/alinepollisbeck/"
+                        target="_blank"><span class='fontAwesome fa-brands fa-linkedin'></span></a></div>
+                <div class="grid-item-social"><a href="" target="_blank"><span
+                            class='fontAwesome fa-brands fa-whatsapp'></span></a></div>
+                <div class="grid-item-social"><a href="mailto:aline.pollis@hotmail.com" target="_blank"><span
+                            class='fontAwesome fa-solid fa-at'></span></a></div>
+                <div class="grid-item-social"><a href="" target="_blank"><span
+                            class='fontAwesome fa-brands fa-discord'></span></a></div>
+                <div class="grid-item-social"><a href="https://t.me/AlinePollis" target="_blank"><span
+                            class='fontAwesome fa-brands fa-telegram'></span></a></div>
+            </div>
+        </div>
+
+        <!-- ================================ -->
+        <!--              RODAPÉ              -->
+        <!-- ================================ -->
+        <div class="rodape-ass">
+            <a><img class="assinatura" src="img/spider-web.png" alt="Marca da teia"></a>
+            <br>
+            Developed by <br>Aline Pollis
+        </div>
+        <div class="rodape-sun">
+            <a><img class="assinatura" src="img/sun.png" alt="Sol"></a>
+            <br>
+            aline.pollis@hotmail.com
+        </div>
+    </section>
+</footer>
+
+</html>
