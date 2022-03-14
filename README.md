@@ -15,7 +15,7 @@
 <br>
 
 <h2 align=""> LINK - ONLINE PROJECT AVAILABLE: </h2>
-  <div align="center"><a href="https://lipollis.github.io/SENAI_UC08_PI/" target="_blank" align-items-center>
+  <div align="center"><a href="https://lipollis.github.io/SENAI_UC08_PI-html/" target="_blank" align-items-center>
     <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"> </img></a></div>
   
 <br>
